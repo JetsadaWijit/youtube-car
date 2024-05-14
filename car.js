@@ -1,7 +1,7 @@
 // brand, model, year, price - string
 // elite - boolean
 
-export class Car {
+class Car {
     constructor(brand, model, year, price, elite) {
         this.brand = brand;
         this.model = model;
@@ -10,3 +10,4 @@ export class Car {
         this.elite = elite;
     }
 }
+export default Car;
