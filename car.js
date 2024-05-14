@@ -9,4 +9,24 @@ export default class Car {
         this.price = price;
         this.elite = elite;
     }
+
+    getBrand() {
+        return this.brand;
+    }
+
+    getModel() {
+        return this.model;
+    }
+
+    getYear() {
+        return this.year;
+    }
+
+    getPrice() {
+        return this.price;
+    }
+
+    isElite() {
+        return this.elite;
+    }
 }
